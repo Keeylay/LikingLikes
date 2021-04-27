@@ -1,0 +1,93 @@
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.Navbar {
+    background-color: black;
+    color: white;
+    width: 710px;
+    display: flex;
+    margin: 0;
+}
+.Navbar h1 {
+    margin-left: 15px;
+    margin: 10px;
+}
+
+.feed {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 710px;
+}
+
+img {
+    width: 70px;
+}
+
+.backbox {
+    display: flex;
+    height: 300px;
+    /* width: 235px; */
+}
+
+.leftbox {
+    border: black 2px solid;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    width: 25%;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.leftbox a, .leftbox h1 {
+    padding: 10px;
+}
+
+.rightboxs {
+    margin: 15px;
+    width: 53.5%;
+}
+
+.box1 {
+    border: 2px solid black;
+    width:  400px;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.box2 {
+    border: 2px solid black;
+    width:  400px;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.box3 {
+    border: 2px solid black;
+    width:  400px;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2 {
+    margin-left: 50px;
+}
+
+button {
+    /* margin-right: 15px; */
+    padding: 6px 15px 6px 15px;
+    font-weight: bold;
+    text-align: center;
+    border:black 2px solid;
+    background-color: yellow;
+    box-shadow: 5px 5px 5px black;
+}
